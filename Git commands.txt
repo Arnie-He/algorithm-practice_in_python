@@ -10,6 +10,8 @@ Git commands
 9. 	rm -r -fo .git					delete the current git
 
 Git Branches
-1.	git branch NewBranch				Setup a NewBranch
+1.	git branch *NewBranch				Setup a NewBranch
 2.	git branch 						look at existing branches
-3.	git switch to BranchName 			switch to the new branch
+3.	git switch to *BranchName 			switch to the new branch
+4. 	git merge -m "Message" *RemoteBranch	merge RemoteBranch with current branch 
+
