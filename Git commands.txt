@@ -6,7 +6,7 @@ Git commands
 5.	git commit -a -m “Message”			commit all with message
 6.	git log 						see the log
 7.	git log --oneline					see the log in one line
-8.	git commit -m “NewMessage” –amend 		amend the last commit’s message
+8.	git commit -m “NewMessage” --amend 		amend the last commit’s message
 9. 	rm -r -fo .git					delete the current git
 
 Git Branches
@@ -14,4 +14,15 @@ Git Branches
 2.	git branch 						look at existing branches
 3.	git switch to *BranchName 			switch to the new branch
 4. 	git merge -m "Message" *RemoteBranch	merge RemoteBranch with current branch 
+5. 	git branch -d *branchName 			delete the branch with branchName
+### What if Master Branch changes when other branches are being changed?
+First make changes on both (or more) branches
+1.	when merging, conflicts will raise
+2. 	open the source file, the comparison will show in file, go into master comparison 
+3. 	Manually resolve the conflicts, go back into main
 
+Github 
+
+1.	git remote add *origin *url 			Adds local repo to remote repo with *url, this connection is named "*origin" 
+2. 	git branch -M main				Sets the target branch to main	
+3. 	git push -u origin main				push all things in local repo to remote			
