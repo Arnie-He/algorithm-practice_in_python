@@ -1,6 +1,6 @@
 Git commands
 1.	cd : d:\ “filename”
-2.	git init                                Creates new git repository
+2.	git init                                	Creates new git repository
 3.	git add --all					Add all to staging 
 4.	git commit  -m ”Message”			commit with message
 5.	git commit -a -m “Message”			commit all with message
@@ -11,5 +11,5 @@ Git commands
 
 Git Branches
 1.	git branch NewBranch				Setup a NewBranch
-2.	git branch 					look at existing branches
+2.	git branch 						look at existing branches
 3.	git switch to BranchName 			switch to the new branch
