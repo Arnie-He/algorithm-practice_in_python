@@ -1,0 +1,12 @@
+1. 	when installing python, click on "add as a path"
+2. 	when creating a project, better set up a venv and install packages on virtual environment.
+
+How do we set up a virtual environment? (In the main repo)
+1.	Go into the terminal under current folder 
+2.	python -m venv .venv (.venv is the virtual environment's name)
+3. 	change the interpreter into .venv interpreter
+4. 	in the .venv terminal, install packages using 						pip install *PackageName
+5.	After project completed, generate the complete package list using 		pip3 freeze > requirements.txt
+6. 	For Git control, better have a file in the main repo named ".gitignore" which consists of (at least)
+	.venv
+	.vscode
