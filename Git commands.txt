@@ -26,7 +26,11 @@ Github
 2. 	git branch -M main				Sets the target branch to main			
 4. 	git pull origin main --allow-unrelated-histories 	commit two unrelated files (Used when readme already created, pull first then push)
 3. 	git push -u origin main				push all things in the current local branch to remote	
-4.	git push --all					push all branches in the current local repo to remote 
+4.	git push --all					push all branches in the current local repo to roemote 
+4. 	git fetch						fetch all the remote changes into local repo
+5. 	git merge						merge all the remote changes with local repo
+or Just, insted of the two above
+6.	git pull						pull all changes and merge in the local repo
 
 assigning issues, make new branches, ask for pull requests(merge into original) comes in sequence
 pull requests: ask for the main to pull your changes 
