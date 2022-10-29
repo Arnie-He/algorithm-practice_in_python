@@ -1,0 +1,15 @@
+Git commands
+1.	cd : d:\ “filename”
+2.	git init                                Creates new git repository
+3.	git add --all					Add all to staging 
+4.	git commit  -m ”Message”			commit with message
+5.	git commit -a -m “Message”			commit all with message
+6.	git log 						see the log
+7.	git log --oneline					see the log in one line
+8.	git commit -m “NewMessage” –amend 		amend the last commit’s message
+9. 	rm -r -fo .git					delete the current git
+
+Git Branches
+1.	git branch NewBranch				Setup a NewBranch
+2.	git branch 					look at existing branches
+3.	git switch to BranchName 			switch to the new branch
