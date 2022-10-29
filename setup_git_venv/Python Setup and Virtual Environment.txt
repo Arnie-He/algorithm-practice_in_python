@@ -10,3 +10,4 @@ How do we set up a virtual environment? (In the main repo)
 6. 	For Git control, better have a file in the main repo named ".gitignore" which consists of (at least)
 	.venv
 	.vscode
+7.	To download all the packages in requirements.txt file, use				pip install -r /path/to/requirements.txt
