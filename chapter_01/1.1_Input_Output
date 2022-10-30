@@ -1,0 +1,27 @@
+
+from operator import truediv
+from tkinter import N
+
+
+print('Welcome to the GPA calculater')
+print('Please input your Grades, one per line')
+print('Enter a blank line to disgnate the end')
+
+points = {'A+': 4.0, 'A': 4.0, 'A-': 3.67, 'B+': 3.33, 'B': 3.0}
+
+num_courses = 0
+num_total = 0
+flag = False
+
+while not flag:
+    n = input()
+    if n == '':
+        flag = True
+    elif n not in points:
+        print('{0} not a valid grade'.format(n))
+    else:
+        num_courses += 1
+        num_total += points[n]
+
+print('The final GPA is {0:.3}'.format(1000*num_total / num_courses))
+    
