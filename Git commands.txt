@@ -12,7 +12,7 @@ Git commands
 Git Branches
 1.	git branch *NewBranch				Setup a NewBranch
 2.	git branch 						look at existing branches
-3.	git switch to *BranchName 			switch to the new branch
+3.	git switch *BranchName 				switch to the new branch
 4. 	git merge -m "Message" *RemoteBranch	merge RemoteBranch with current branch 
 5. 	git branch -d *branchName 			delete the branch with branchName
 ### What if Master Branch changes when other branches are being changed?
