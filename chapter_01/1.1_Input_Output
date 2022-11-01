@@ -23,5 +23,5 @@ while not flag:
         num_courses += 1
         num_total += points[n]
 
-print('The final GPA is {0:.3}'.format(1000*num_total / num_courses))
-    
+# {0: .3}: keeps three valid digits, if 34529 then become 34500, if 3.456 then become 3.46
+print('The final GPA is {0:.3}'.format(num_total / num_courses))
